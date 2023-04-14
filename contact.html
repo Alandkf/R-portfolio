@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="mystyle.css">
+
+    <!-- Internal CSS File -->
+    <style>
+.Contact h2{
+    margin-bottom: 3rem;
+}
+
+.Contact form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.Contact form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Contact form .input-box input,
+.Contact form textarea{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    border-radius: .8rem;
+    margin: .7rem 0;
+}
+
+.Contact form .input-box input{
+    width: 49%;
+}
+
+.Contact form textarea{
+    resize: none;
+}
+
+.Contact form .btn{
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 2rem 9%;
+    background: var(--second-bg-color);
+}
+    </style>
+</head>
+
+
+
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">portfolio</a>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="Service.html">services</a>
+            <a href="portfolio.html">portfolio</a>
+            <a class="active" href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- contact section  -->
+<section class="Contact" id="Contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="email" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+
+<!--! footer design  -->
+<footer class="footer">
+    <div class="footer-text">
+        <p>copyRight &copy; 2023 by Roshna Faruq  | All Rights Reserved.</p>
+    </div>
+
+</footer>
+
+</body>
+</html>
